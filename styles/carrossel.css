@@ -66,9 +66,24 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 .descrição__imagem {
-    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+@media (max-width: 390px) { /* iPhone 12 Pro */
+    .descrição__imagem {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+.card__estrelinhas {
+    margin: 0.5em 0 0.5em 0;
 }
