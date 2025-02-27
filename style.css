@@ -4,6 +4,10 @@
 @import url("styles/tópicos.css");
 @import url("styles/contato.css");
 @import url("styles/rodapé.css");
+@import url("styles/banner_livros.css");
+@import url("styles/nav_livros.css");
+@import url("styles/livros.css");
+@import url("style1.css");
 
 :root {
     --cor-de-fundo: #efefef;
@@ -15,6 +19,13 @@
     --fonte-secundaria: "josefin Sans";
     --preto: #000000;
     --cinza: #858585;
+    --bg-color: #ffffff;
+    --button-color: #326589;
+    --text-title-color: #fc6621;
+    --text-description-color: #fc6621;
+    --text-price-color: #002f52;
+    --text-author-color: #858585;
+    --text-tag-color: #9c9c9c;
 }
 
 body {
